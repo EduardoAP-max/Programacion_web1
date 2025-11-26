@@ -1,0 +1,114 @@
+/* ------------------------ */
+/* ESTILOS GENERALES */
+/* ------------------------ */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+/* ------------------------ */
+/* ENCABEZADO */
+/* ------------------------ */
+header {
+    background-color: #b62828;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* MENÚ DE NAVEGACIÓN */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* ------------------------ */
+/* SECCIÓN DE INICIO */
+/* ------------------------ */
+.inicio {
+    text-align: center;
+    padding: 20px;
+}
+
+.img-principal {
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* ------------------------ */
+/* MENÚ DE COMIDA */
+/* ------------------------ */
+.platillo {
+    background: white;
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+.platillo img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+/* ------------------------ */
+/* GALERÍA */
+/* ------------------------ */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* ------------------------ */
+/* PROMOCIONES */
+/* ------------------------ */
+.promos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promo-card {
+    width: 70%;
+    background: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #aaa;
+    text-align: center;
+}
+
+/* ------------------------ */
+/* PIE DE PÁGINA */
+/* ------------------------ */
+footer {
+    background-color: #b62828;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
